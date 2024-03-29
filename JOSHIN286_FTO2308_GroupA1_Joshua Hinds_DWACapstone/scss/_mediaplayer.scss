@@ -1,0 +1,25 @@
+.audio-player {
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: $primary;
+    padding: 10px;
+    border-radius: 25px;
+    display: flex;
+
+    button {
+        width: 40px;
+        border-radius: 50%;
+        border: none;
+        margin-right: 5px;
+
+        ion-icon {
+
+        }
+    }
+
+    audio {
+        height: 40px;
+    }
+}
